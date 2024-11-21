@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
             moveDir = Vector3.left;
             rb.MovePosition(transform.position + moveDir * moveSpeed * Time.deltaTime);
