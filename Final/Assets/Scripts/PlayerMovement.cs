@@ -28,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
             moveDir = Vector3.left;
             rb.MovePosition(transform.position + moveDir * moveSpeed * Time.deltaTime);
         }
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.D))
         {
             moveDir = Vector3.right;
             rb.MovePosition(transform.position + moveDir * moveSpeed * Time.deltaTime);
