@@ -33,7 +33,8 @@ public class PlayerMovement : MonoBehaviour
             moveDir = Vector3.right;
             rb.MovePosition(transform.position + moveDir * moveSpeed * Time.deltaTime);
         }
-
-            
+   
     }
+
+
 }
