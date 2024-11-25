@@ -212,9 +212,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1687ac5759723fd4ab661f56393b7198, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textComponent: {fileID: 0}
-  lines: []
-  textSpeed: 0
+  textComponent: {fileID: 399699475}
+  lines:
+  - Hello World
+  - Testing,,,
+  textSpeed: 0.1
 --- !u!1 &382904261
 GameObject:
   m_ObjectHideFlags: 0
