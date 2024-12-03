@@ -1,15 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro; 
+using TMPro;
 
 /*
  * VEX VASQUEZ
  * 11/21/2024
  * Manages Dialogue between characters
  */
-public class Dialogue : MonoBehaviour
+
+[CreateAssetMenu(fileName = "New Dialogue", menuName = "Dialogue/Dialogue Asset")]
+
+public class Dialogue : ScriptableObject
 {
+    public DialogueNode RootNode;
+
+    /*
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
@@ -66,4 +72,5 @@ public class Dialogue : MonoBehaviour
             StartCoroutine(TypeLine());
         }
     }
+    */
 }
