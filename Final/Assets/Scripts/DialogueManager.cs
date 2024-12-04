@@ -42,5 +42,41 @@ public class DialogueManager : MonoBehaviour
     public void StartDialogue(string title, DialogueNode node)
     {
         ShowDialogue();
+
+        DialogueTitleText.text = title;
+        DialogueBodyText.text = node.dialogueText;
+
+        foreach (DialogueResponse response in node.responses)
+        {
+            GameObject buttonObj = Instantiate(responseButtonPrefab, responseButtonContainer);
+            buttonObj.GetComponentInChildren<TextMeshProUGUI>().text = response.responseText;
+
+            //buttonObj.GetComponent<Button>.onClick.AddListener(() => SelectResponse(response, title));
+        }
+
+    }
+
+    public void SelectResponse(DialogueResponse response, string title)
+    {
+        if (response.nextNode != null)
+        {
+            StartDialogue(title, response.nextNode);
+        }
+        else
+        {
+            HideDialogue();
+        }
+    }
+
+    public void HideDialogue()
+    {
+        //DialogueParent.SetActive(false);
+
+    }
+
+    private void ShowDialogue()
+    {
+        //DialogueParent.SetActive(true);
+
     }
 }
