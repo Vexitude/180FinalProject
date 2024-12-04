@@ -21,7 +21,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject responseButtonPrefab;
     public Transform responseButtonContainer;
 
-    private void On()
+    private void Awake()
     {
         if (Instance == null)
         {
@@ -46,19 +46,24 @@ public class DialogueManager : MonoBehaviour
         DialogueTitleText.text = title;
         DialogueBodyText.text = node.dialogueText;
 
+        foreach(Transform child in responseButtonContainer)
+        {
+            Destroy(child.gameObject);
+        }
+
         foreach (DialogueResponse response in node.responses)
         {
             GameObject buttonObj = Instantiate(responseButtonPrefab, responseButtonContainer);
             buttonObj.GetComponentInChildren<TextMeshProUGUI>().text = response.responseText;
 
-            //buttonObj.GetComponent<Button>.onClick.AddListener(() => SelectResponse(response, title));
+            buttonObj.GetComponent<Button>().onClick.AddListener(() => SelectResponse(response, title));
         }
 
     }
 
     public void SelectResponse(DialogueResponse response, string title)
     {
-        if (response.nextNode != null)
+        if (!response.nextNode.IsLastNode())
         {
             StartDialogue(title, response.nextNode);
         }
@@ -70,13 +75,13 @@ public class DialogueManager : MonoBehaviour
 
     public void HideDialogue()
     {
-        //DialogueParent.SetActive(false);
+        DialogueBox.SetActive(false);
 
     }
 
     private void ShowDialogue()
     {
-        //DialogueParent.SetActive(true);
+        DialogueBox.SetActive(true);
 
     }
 }
