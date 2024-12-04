@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 47765644}
   - component: {fileID: 47765646}
-  - component: {fileID: 47765647}
   - component: {fileID: 47765645}
   m_Layer: 5
   m_Name: DialogueBox
@@ -201,23 +200,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 47765643}
   m_CullTransparentMesh: 1
---- !u!114 &47765647
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 47765643}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1687ac5759723fd4ab661f56393b7198, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textComponent: {fileID: 399699475}
-  lines:
-  - Hello World
-  - Testing,,,
-  textSpeed: 0.1
 --- !u!1 &162558454
 GameObject:
   m_ObjectHideFlags: 0
