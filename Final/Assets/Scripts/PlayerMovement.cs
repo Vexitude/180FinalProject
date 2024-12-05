@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /*
  * Name: Alan Buell
@@ -36,5 +37,21 @@ public class PlayerMovement : MonoBehaviour
    
     }
 
+    public void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.GetComponent<NextDate>())
+        {
+            if (collision.gameObject.tag == "Door1")
+            {
+                SceneManager.LoadScene(1);
+            }
+
+            if (collision.gameObject.tag == "Door2")
+            {
+                SceneManager.LoadScene(2);
+            }
+
+        }
+    }
 
 }

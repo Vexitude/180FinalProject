@@ -15,14 +15,26 @@ MonoBehaviour:
   RootNode:
     dialogueText: Hello,,,
     responses:
-    - responseText: Test 1
+    - responseText: TESTING
       nextNode:
         dialogueText: Yes
         responses:
         - responseText: Continue
           nextNode:
-            dialogueText: 
-            responses: []
+            dialogueText: Hello
+            responses:
+            - responseText: continue
+              nextNode:
+                dialogueText: 
+                responses: []
+    - responseText: Test 2
+      nextNode:
+        dialogueText: No
+        responses: []
+    - responseText: Test 2
+      nextNode:
+        dialogueText: No
+        responses: []
     - responseText: Test 2
       nextNode:
         dialogueText: No
