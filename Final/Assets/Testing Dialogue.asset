@@ -12,4 +12,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1687ac5759723fd4ab661f56393b7198, type: 3}
   m_Name: Testing Dialogue
   m_EditorClassIdentifier: 
-  RootNode: {fileID: 0}
+  RootNode:
+    dialogueText: Hello,,,
+    responses:
+    - responseText: World?
+      nextNode:
+        dialogueText: Yes
+        responses:
+        - responseText: Continue
+          nextNode:
+            dialogueText: 
+            responses: []
+    - responseText: Creator?
+      nextNode:
+        dialogueText: No
+        responses: []
+    - responseText: Something
+      nextNode:
+        dialogueText: No
+        responses:
+        - responseText: 
+          nextNode:
+            dialogueText: 
+            responses: []
+    - responseText: Else
+      nextNode:
+        dialogueText: No
+        responses:
+        - responseText: 
+          nextNode:
+            dialogueText: 
+            responses: []

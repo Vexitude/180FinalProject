@@ -84,4 +84,9 @@ public class DialogueManager : MonoBehaviour
         DialogueBox.SetActive(true);
 
     }
+
+    public bool IsDialogueActive()
+    {
+        return DialogueBox.activeSelf;
+    }
 }
