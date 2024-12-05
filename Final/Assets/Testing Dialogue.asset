@@ -15,7 +15,7 @@ MonoBehaviour:
   RootNode:
     dialogueText: Hello,,,
     responses:
-    - responseText: World?
+    - responseText: Test 1
       nextNode:
         dialogueText: Yes
         responses:
@@ -23,23 +23,7 @@ MonoBehaviour:
           nextNode:
             dialogueText: 
             responses: []
-    - responseText: Creator?
+    - responseText: Test 2
       nextNode:
         dialogueText: No
         responses: []
-    - responseText: Something
-      nextNode:
-        dialogueText: No
-        responses:
-        - responseText: 
-          nextNode:
-            dialogueText: 
-            responses: []
-    - responseText: Else
-      nextNode:
-        dialogueText: No
-        responses:
-        - responseText: 
-          nextNode:
-            dialogueText: 
-            responses: []
