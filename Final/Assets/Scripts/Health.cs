@@ -2,9 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
+
+    public string correct;
+
     private void Start()
     {
         Scene currentScene = SceneManager.GetActiveScene();
@@ -16,7 +20,10 @@ public class Health : MonoBehaviour
 
             if(gameObject.GetComponent<DialogueManager>())
             {
-                //gameObject
+                if(gameObject.GetComponentInParent<Text>())
+                {
+                    print("Finishing this later");
+                }
             }
         }
     }
