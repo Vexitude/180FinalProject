@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class QuizManager : MonoBehaviour
 {
     public List<QA> QnA;
     public GameObject[] options;
     public int currentQuestion;
+
 
     public TextMeshProUGUI QuestionTxt;
 
@@ -42,7 +44,8 @@ public class QuizManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Date Completed!");   
+            Debug.Log("Date Completed!");
+            DateCompleted();
         }
         
 
@@ -52,5 +55,10 @@ public class QuizManager : MonoBehaviour
     {
         QnA.RemoveAt(currentQuestion);
         GenerateQuestion();
+    }
+
+    public void DateCompleted()
+    {
+        SceneManager.LoadScene(0);
     }
 }
