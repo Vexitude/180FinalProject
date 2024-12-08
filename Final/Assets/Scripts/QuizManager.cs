@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using Unity.VisualScripting;
 
 public class QuizManager : MonoBehaviour
 {
@@ -14,9 +15,25 @@ public class QuizManager : MonoBehaviour
 
     public TextMeshProUGUI QuestionTxt;
 
+    private State state;
+
     private void Start()
     {
-        GenerateQuestion();
+
+        this.state = SetState();
+        this.gameObject.GetComponent<Dialogue>().Init(this.state);
+
+        /*
+        if (gameObject.GetComponent<Dialogue>().lines == null)
+        {
+            GenerateQuestion();
+        }
+        */
+    }
+
+    private void Update()
+    {
+
     }
 
     void SetAnswers()
