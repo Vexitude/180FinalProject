@@ -23,10 +23,12 @@ public class QuizManager : MonoBehaviour
 
     private void Update()
     {
-        if(gameObject.GetComponent<>.activeSelf == false)
+        /*
+        if(gameObject.GetComponent<Dialogue>.activeSelf == false)
         {
             GenerateQuestion();
         }
+        */
     }
 
     void SetAnswers()
