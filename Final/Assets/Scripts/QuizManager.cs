@@ -24,7 +24,7 @@ public class QuizManager : MonoBehaviour
     private void Update()
     {
         /*
-        if(gameObject.GetComponent<Dialogue>.activeSelf == false)
+        if(gameObject.GetComponent<Dialogue>().activeSelf == false)
         {
             GenerateQuestion();
         }
