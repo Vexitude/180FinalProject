@@ -12,19 +12,32 @@ public class Dialogue : MonoBehaviour
 
     private int index;
 
-    public void Init(State state){}
-
-
-    void Start()
+    private void Awake()
     {
         textComponent.text = string.Empty;
         StartDialogue();
     }
 
+    void Start()
+    {
+
+    }
+
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetMouseButtonDown(0))
+        {
+            if(textComponent.text == lines[index])
+            {
+                NextLine();
+            }
+            else
+            {
+                StopAllCoroutines();
+                textComponent.text = lines[index];
+            }
+        }
     }
 
     public void StartDialogue()
@@ -42,5 +55,20 @@ public class Dialogue : MonoBehaviour
             yield return new WaitForSeconds(textSpeed);
         }
         
+    }
+
+    void NextLine()
+    {
+        if(index < lines.Length - 1)
+        {
+            index++;
+            textComponent.text = string.Empty;
+            StartCoroutine(TypeLine());
+
+        }
+        else
+        {
+            gameObject.SetActive(false);
+        }
     }
 }

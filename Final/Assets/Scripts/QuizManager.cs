@@ -15,25 +15,18 @@ public class QuizManager : MonoBehaviour
 
     public TextMeshProUGUI QuestionTxt;
 
-    private State state;
-
     private void Start()
     {
+        
 
-        this.state = SetState();
-        this.gameObject.GetComponent<Dialogue>().Init(this.state);
-
-        /*
-        if (gameObject.GetComponent<Dialogue>().lines == null)
-        {
-            GenerateQuestion();
-        }
-        */
     }
 
     private void Update()
     {
-
+        if(gameObject.GetComponent<>.activeSelf == false)
+        {
+            GenerateQuestion();
+        }
     }
 
     void SetAnswers()
@@ -50,9 +43,9 @@ public class QuizManager : MonoBehaviour
         }
     }
 
-    void GenerateQuestion()
+    public void GenerateQuestion()
     {
-        if(QnA.Count > 0)
+        if (QnA.Count > 0)
         {
             currentQuestion = Random.Range(0, QnA.Count);
 
@@ -64,8 +57,6 @@ public class QuizManager : MonoBehaviour
             Debug.Log("Date Completed!");
             DateCompleted();
         }
-        
-
     }
 
     public void Correct()
