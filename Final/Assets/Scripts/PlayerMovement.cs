@@ -52,7 +52,7 @@ public class PlayerMovement : MonoBehaviour
             }
             if (collision.gameObject.tag == "Door3")
             {
-                //SceneManager.LoadScene(3);
+                SceneManager.LoadScene(3);
             }
 
         }
