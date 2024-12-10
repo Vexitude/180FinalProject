@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 /*
@@ -11,30 +12,34 @@ public class Jenny : MonoBehaviour
 {
     public GameObject JennyOpen;
     public GameObject JennyClosed;
-
+    public int BlinkInterval = 5;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("JennyBlink", 0.5f, 0.5f);
+        InvokeRepeating("JennyBlink", 1, BlinkInterval);
     }
 
     private void Update()
     {
         
     }
+
     private void JennyBlink()
     {
-        int randNum = Random.Range(0, 2);
 
-        if(randNum == 0)
-        {
-            Instantiate(JennyOpen,transform.position, Quaternion.identity);
-        }
-        else if (randNum == 1)
-        {
-            Instantiate(JennyClosed, transform.position, Quaternion.identity);
-        }
+        StartCoroutine(WaitToBlink());
     }
+    
+
+    private IEnumerator WaitToBlink()
+    {
+        JennyClosed.SetActive(true);
+
+        yield return new WaitForSeconds(0.25f);
+        JennyClosed.SetActive(false);
+
+    }
+
 }
