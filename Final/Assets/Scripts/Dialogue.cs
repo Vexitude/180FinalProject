@@ -21,6 +21,11 @@ public class Dialogue : MonoBehaviour
 
     void Start()
     {
+        if(lines == null)
+        {
+            Quiz.GenerateQuestion();
+        }
+
 
 
     }
