@@ -9,31 +9,25 @@ public class Dialogue : MonoBehaviour
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
+    public GameObject Buttons;
+
 
     private int index;
     public QuizManager Quiz;
 
-    private void Awake()
-    {
-        textComponent.text = string.Empty;
-        StartDialogue();
-    }
 
     void Start()
     {
-        if(lines == null)
-        {
-            Quiz.GenerateQuestion();
-        }
 
-
+        textComponent.text = string.Empty;
+        StartDialogue();
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetKeyDown(KeyCode.Space))
         {
             if(textComponent.text == lines[index])
             {
@@ -64,9 +58,9 @@ public class Dialogue : MonoBehaviour
         
     }
 
-    void NextLine()
+    public void NextLine()
     {
-        if(index < lines.Length - 1)
+        if (index < lines.Length - 1)
         {
             index++;
             textComponent.text = string.Empty;
@@ -75,7 +69,9 @@ public class Dialogue : MonoBehaviour
         }
         else
         {
-            gameObject.SetActive(false);
+            Buttons.SetActive(true);
+            Quiz.GenerateQuestion();
         }
+
     }
 }

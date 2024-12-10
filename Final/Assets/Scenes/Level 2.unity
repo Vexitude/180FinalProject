@@ -1011,6 +1011,7 @@ MonoBehaviour:
   - Hello
   - World
   textSpeed: 0.1
+  Buttons: {fileID: 843415357}
   Quiz: {fileID: 1248531497}
 --- !u!1 &472733768
 GameObject:
@@ -1873,21 +1874,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Question: Hello
+  - Question: 1
     Answers:
     - World
     - Planet
     - Creator
     - Pink
     CorrectAnswer: 1
-  - Question: Hi
+  - Question: 2
     Answers:
     - yes
     - no
     - maybe
     - Pink
     CorrectAnswer: 1
-  - Question: test
+  - Question: 3
     Answers:
     - yes
     - no
