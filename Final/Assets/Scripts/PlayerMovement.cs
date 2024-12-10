@@ -50,6 +50,10 @@ public class PlayerMovement : MonoBehaviour
             {
                 SceneManager.LoadScene(2);
             }
+            if (collision.gameObject.tag == "Door3")
+            {
+                SceneManager.LoadScene(3);
+            }
 
         }
     }

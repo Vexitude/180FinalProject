@@ -26,23 +26,24 @@ public class QuizManager : MonoBehaviour
         /*
         if(gameObject.GetComponent<Dialogue>().activeSelf == false)
         {
-            GenerateQuestion();
+            
         }
         */
     }
 
-    void SetAnswers()
+    public void SetAnswers()
     {
         for (int i = 0; i < options.Length; i++)
         {
             options[i].GetComponent<Answers>().isCorrect = false;
             options[i].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = QnA[currentQuestion].Answers[i];
 
-            if (QnA[currentQuestion].CorrectAnswer == i+1)
+            if (QnA[currentQuestion].CorrectAnswer == i + 1)
             {
                 options[i].GetComponent<Answers>().isCorrect = true;
             }
         }
+
     }
 
     public void GenerateQuestion()

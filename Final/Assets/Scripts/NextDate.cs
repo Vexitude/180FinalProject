@@ -16,7 +16,7 @@ public class NextDate : MonoBehaviour
     {
         if(collision.gameObject.GetComponent<PlayerMovement>())
         {
-            //Destroy(gameObject.CompareTag("Door2"));
+            print("Entered Door");
         }
     }
 }

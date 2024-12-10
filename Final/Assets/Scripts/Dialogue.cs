@@ -11,6 +11,7 @@ public class Dialogue : MonoBehaviour
     public float textSpeed;
 
     private int index;
+    public QuizManager Quiz;
 
     private void Awake()
     {
@@ -20,6 +21,7 @@ public class Dialogue : MonoBehaviour
 
     void Start()
     {
+
 
     }
 
