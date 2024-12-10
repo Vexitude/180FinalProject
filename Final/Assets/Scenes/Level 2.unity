@@ -1011,6 +1011,7 @@ MonoBehaviour:
   - Hello
   - World
   textSpeed: 0.1
+  Quiz: {fileID: 1248531497}
 --- !u!1 &472733768
 GameObject:
   m_ObjectHideFlags: 0
