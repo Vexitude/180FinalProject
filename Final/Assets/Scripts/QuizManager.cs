@@ -12,8 +12,13 @@ public class QuizManager : MonoBehaviour
     public GameObject[] options;
     public int currentQuestion;
 
+    
 
     public TextMeshProUGUI QuestionTxt;
+
+    private int finalDate = 5;
+    private int secondDate = 4;
+    private int finalHall = 6;
 
     private void Start()
     {
@@ -53,6 +58,7 @@ public class QuizManager : MonoBehaviour
         else
         {
             Debug.Log("Date Completed!");
+
             DateCompleted();
         }
     }
@@ -65,6 +71,21 @@ public class QuizManager : MonoBehaviour
 
     public void DateCompleted()
     {
-        SceneManager.LoadScene(0);
+        Scene currentScene = SceneManager.GetActiveScene();
+        string sceneName = currentScene.name;
+
+        if (sceneName == "Level 2")
+        {
+            SceneManager.LoadScene(finalDate);
+        }
+        if (sceneName == "Level 1")
+        {
+            SceneManager.LoadScene(secondDate);
+        }
+        if (sceneName == "Level 3")
+        {
+            SceneManager.LoadScene(finalHall);
+        }
+
     }
 }

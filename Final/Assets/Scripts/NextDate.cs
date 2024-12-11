@@ -6,7 +6,7 @@ using UnityEngine;
 /*
  * VEX VASQUEZ
  * Last Updated:12/5/2024
- * Manages Scene Switching to Next Date
+ * This Game screams without this useless script so it lives here now
  */
 
 public class NextDate : MonoBehaviour

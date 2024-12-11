@@ -1000,7 +1000,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78f910852f97aba499b53ce96289c462, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HealthPoints: {fileID: 325206537}
+  healthPoints: {fileID: 325206537}
+  replies: {fileID: 872837978}
+  answerbutton: AnswerButton
 --- !u!1 &382904261
 GameObject:
   m_ObjectHideFlags: 0

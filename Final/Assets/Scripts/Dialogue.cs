@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using Unity.VisualScripting;
+using UnityEngine.SceneManagement;
 
 public class Dialogue : MonoBehaviour
 {
@@ -19,6 +20,8 @@ public class Dialogue : MonoBehaviour
 
     void Start()
     {
+        
+
         title.text = "Jenny";
         textComponent.text = string.Empty;
         StartDialogue();
