@@ -14,7 +14,7 @@ public class Health : MonoBehaviour
 
 
     private int maxlives = 10;
-    private int startinglives = 5;
+    private int currentlives = 5;
     public int button;
 
     private void Start()
@@ -24,28 +24,28 @@ public class Health : MonoBehaviour
 
     private void Update()
     {
-
+        
     }
 
     public void AddingHealth()
     {
 
-        if (startinglives < maxlives)
+        if (currentlives < maxlives)
         {
-            startinglives++;
+            currentlives++;
         }
     }
 
     public void LosingHealth()
     {
-        if (startinglives >= 1)
+        if (currentlives >= 1)
         {
-            startinglives--;
+            currentlives--;
         }
         else
         {
             Debug.Log("Game Over");
-
+            Restart();
         }
     }
 
@@ -60,6 +60,25 @@ public class Health : MonoBehaviour
             LosingHealth();
         }
 
-        healthPoints.text = "Lives: " + startinglives;
+        healthPoints.text = "Lives: " + currentlives;
+    }
+
+    public void Restart()
+    {
+        Scene thisScene = SceneManager.GetActiveScene();
+        string currentScene = thisScene.name;
+
+        if (currentScene == "Level 1")
+        {
+            SceneManager.LoadScene(0);
+        }
+        if (currentScene == "Level 2")
+        {
+            SceneManager.LoadScene(4);
+        }
+        if (currentScene == "Level 3")
+        {
+            SceneManager.LoadScene(5);
+        }
     }
 }
