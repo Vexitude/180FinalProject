@@ -26,4 +26,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Final Hallway.unity
     guid: dddd9b0e340fbf0419ae83e6036f4c40
+  - enabled: 1
+    path: Assets/Scenes/_MainMenu.unity
+    guid: 224fb54c0cb637845b6711b7aa315cc8
+  - enabled: 1
+    path: Assets/Scenes/_HowTo.unity
+    guid: 1feaeb8c837840d48ac0931568a3fb77
+  - enabled: 1
+    path: Assets/Scenes/_EndScreen.unity
+    guid: 0726fd1eaba09aa45a5211e369039d9b
+  - enabled: 1
+    path: Assets/Scenes/_Ghosted.unity
+    guid: b76c5378479f00846b867efb3c8d157c
+  - enabled: 1
+    path: Assets/Scenes/_NewDate.unity
+    guid: baf058c4dcf4ac84a84b5a780f872b08
   m_configObjects: {}
