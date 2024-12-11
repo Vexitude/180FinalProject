@@ -12,6 +12,7 @@ public class Jenny : MonoBehaviour
 {
     public GameObject JennyOpen;
     public GameObject JennyClosed;
+    
     public int BlinkInterval = 5;
 
 

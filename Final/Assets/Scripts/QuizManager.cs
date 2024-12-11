@@ -11,8 +11,8 @@ public class QuizManager : MonoBehaviour
     public List<QA> QnA;
     public GameObject[] options;
     public int currentQuestion;
+    public GameObject jennyUpset;
 
-    
 
     public TextMeshProUGUI QuestionTxt;
 
@@ -41,6 +41,7 @@ public class QuizManager : MonoBehaviour
             if (QnA[currentQuestion].CorrectAnswer == i + 1)
             {
                 options[i].GetComponent<Answers>().isCorrect = true;
+                
             }
         }
 

@@ -12,6 +12,7 @@ public class Dialogue : MonoBehaviour
     public string[] lines;
     public float textSpeed;
     public GameObject Buttons;
+    
 
 
     private int index;
