@@ -6,6 +6,7 @@ using Unity.VisualScripting;
 
 public class Dialogue : MonoBehaviour
 {
+    public TextMeshProUGUI title;
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
@@ -18,7 +19,7 @@ public class Dialogue : MonoBehaviour
 
     void Start()
     {
-
+        title.text = "Jenny";
         textComponent.text = string.Empty;
         StartDialogue();
 
