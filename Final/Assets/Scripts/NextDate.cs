@@ -6,7 +6,7 @@ using UnityEngine;
 /*
  * VEX VASQUEZ
  * Last Updated:12/5/2024
- * This Game screams without this useless script so it lives here now
+ * For Door Detections
  */
 
 public class NextDate : MonoBehaviour
