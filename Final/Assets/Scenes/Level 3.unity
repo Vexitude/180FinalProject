@@ -612,7 +612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1e7bf2628d32424ab9502eba903d02b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  quiz: {fileID: 0}
+  quiz: {fileID: 1348928729}
   isCorrect: 0
 --- !u!114 &581418094
 MonoBehaviour:
@@ -1156,7 +1156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1e7bf2628d32424ab9502eba903d02b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  quiz: {fileID: 0}
+  quiz: {fileID: 1348928729}
   isCorrect: 0
 --- !u!114 &790811188
 MonoBehaviour:
@@ -1438,7 +1438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1e7bf2628d32424ab9502eba903d02b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  quiz: {fileID: 0}
+  quiz: {fileID: 1348928729}
   isCorrect: 0
 --- !u!114 &847544845
 MonoBehaviour:
@@ -1586,7 +1586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1e7bf2628d32424ab9502eba903d02b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  quiz: {fileID: 0}
+  quiz: {fileID: 1348928729}
   isCorrect: 0
 --- !u!114 &898099891
 MonoBehaviour:
@@ -2189,6 +2189,27 @@ MonoBehaviour:
     - maybe
     - Pink
     CorrectAnswer: 1
+  - Question: 4
+    Answers:
+    - yes
+    - no
+    - maybe
+    - Pink
+    CorrectAnswer: 1
+  - Question: 5
+    Answers:
+    - yes
+    - no
+    - maybe
+    - Pink
+    CorrectAnswer: 1
+  - Question: 6
+    Answers:
+    - yes
+    - no
+    - maybe
+    - Pink
+    CorrectAnswer: 1
   options:
   - {fileID: 581418092}
   - {fileID: 847544842}
@@ -2197,7 +2218,7 @@ MonoBehaviour:
   currentQuestion: 0
   jennyUpset: {fileID: 1601169067}
   health: {fileID: 719709144}
-  replies: {fileID: 0}
+  replies: {fileID: 581418093}
   QuestionTxt: {fileID: 1040211911}
 --- !u!4 &1348928730
 Transform:
