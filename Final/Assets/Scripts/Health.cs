@@ -15,11 +15,10 @@ public class Health : MonoBehaviour
 
     private int maxlives = 10;
     private int currentlives = 5;
-    public int button;
 
     private void Start()
     {
-        
+        healthPoints.text = "Lives: " + currentlives;
     }
 
     private void Update()
@@ -33,6 +32,7 @@ public class Health : MonoBehaviour
         if (currentlives < maxlives)
         {
             currentlives++;
+            healthPoints.text = "Lives: " + currentlives;
         }
     }
 
@@ -41,6 +41,7 @@ public class Health : MonoBehaviour
         if (currentlives >= 1)
         {
             currentlives--;
+            healthPoints.text = "Lives: " + currentlives;
         }
         else
         {
@@ -49,19 +50,7 @@ public class Health : MonoBehaviour
         }
     }
 
-    public void LifeHolder()
-    {
-        if (replies.isCorrect == false)
-        {
-            AddingHealth();
-        }
-        else
-        {
-            LosingHealth();
-        }
-
-        healthPoints.text = "Lives: " + currentlives;
-    }
+  
 
     public void Restart()
     {

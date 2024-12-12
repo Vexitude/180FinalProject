@@ -6,6 +6,7 @@ public class Answers : MonoBehaviour
 {
     public bool isCorrect = false;
     public QuizManager quizManager;
+    public Health lives;
 
     public void Answer()
     {
@@ -13,12 +14,14 @@ public class Answers : MonoBehaviour
         {
             Debug.Log("Good Choice!");
             quizManager.Correct();
+            lives.AddingHealth();
             quizManager.jennyUpset.SetActive(false);
         }
         else
         {
             Debug.Log("Maybe Not...");
             quizManager.Correct();
+            lives.LosingHealth();
             quizManager.jennyUpset.SetActive(true);
         }
     }
