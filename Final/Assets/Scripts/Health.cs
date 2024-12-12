@@ -37,7 +37,7 @@ public class Health : MonoBehaviour
 
     public void LosingHealth()
     {
-        if (currentlives >= 1)
+        if (currentlives >= 2)
         {
             currentlives--;
             healthPoints.text = "Lives: " + currentlives;
