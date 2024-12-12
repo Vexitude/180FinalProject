@@ -44,8 +44,6 @@ public class QuizManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Date Completed!");
-
             DateCompleted();
         }
     }

@@ -527,8 +527,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1333,8 +1333,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1763,8 +1763,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2021,8 +2021,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2165,35 +2165,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Question: 1
+  - Question: How much do you think your life is worth?
     Answers:
-    - 2
-    - 3
-    - 3
-    - 3
+    - One Clam
+    - Fifty Grand Dollars
+    - My Life IS Priceless <3
+    - 3 Burgers
+    CorrectAnswer: 4
+  - Question: What part of me would you cannibalize?
+    Answers:
+    - Arm
+    - Heart
+    - Liver
+    - Kidney
+    CorrectAnswer: 3
+  - Question: Who shot JFK?
+    Answers:
+    - ' Lee Harvey Oswald'
+    - John Wilkes Booth
+    - Thomas Matthew Crooks
+    - Ron DeSantis
     CorrectAnswer: 1
+  - Question: If I put you in a pot of boiling water, what would you do?
+    Answers:
+    - Get Out
+    - Embrace The Warmth
+    - Drink it
+    - Invite You To Join Me
+    CorrectAnswer: 3
   - Question: 2
-    Answers:
-    - yes
-    - no
-    - maybe
-    - Pink
-    CorrectAnswer: 1
-  - Question: 3
-    Answers:
-    - yes
-    - no
-    - maybe
-    - Pink
-    CorrectAnswer: 1
-  - Question: 4
-    Answers:
-    - yes
-    - no
-    - maybe
-    - Pink
-    CorrectAnswer: 1
-  - Question: 5
     Answers:
     - yes
     - no
@@ -2561,8 +2561,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
