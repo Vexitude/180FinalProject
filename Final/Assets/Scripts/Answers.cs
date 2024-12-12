@@ -14,14 +14,14 @@ public class Answers : MonoBehaviour
         {
             Debug.Log("Good Choice!");
             quizManager.Correct();
-            lives.AddingHealth();
+            //lives.AddingHealth();
             quizManager.jennyUpset.SetActive(false);
         }
         else
         {
             Debug.Log("Maybe Not...");
             quizManager.Correct();
-            lives.LosingHealth();
+            //lives.LosingHealth();
             quizManager.jennyUpset.SetActive(true);
         }
     }
