@@ -12,21 +12,10 @@ public class QuizManager : MonoBehaviour
     public GameObject[] options;
     public int currentQuestion;
     public GameObject jennyUpset;
-
+    public Health health;
+    public Answers replies;
 
     public TextMeshProUGUI QuestionTxt;
-
-
-    private void Start()
-    {
-        
-
-    }
-
-    private void Update()
-    {
-
-    }
 
     public void SetAnswers()
     {
@@ -65,6 +54,14 @@ public class QuizManager : MonoBehaviour
     {
         QnA.RemoveAt(currentQuestion);
         GenerateQuestion();
+        health.AddingHealth();
+    }
+
+    public void Wrong()
+    {
+        QnA.RemoveAt(currentQuestion);
+        GenerateQuestion();
+        health.LosingHealth();
     }
 
     public void DateCompleted()

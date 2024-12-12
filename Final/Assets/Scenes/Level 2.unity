@@ -347,8 +347,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1e7bf2628d32424ab9502eba903d02b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  quiz: {fileID: 1248531497}
   isCorrect: 0
-  quizManager: {fileID: 1248531497}
 --- !u!1 &107299254
 GameObject:
   m_ObjectHideFlags: 0
@@ -749,8 +749,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1e7bf2628d32424ab9502eba903d02b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  quiz: {fileID: 1248531497}
   isCorrect: 0
-  quizManager: {fileID: 1248531497}
 --- !u!1 &239820099
 GameObject:
   m_ObjectHideFlags: 0
@@ -1002,8 +1002,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthPoints: {fileID: 325206537}
-  replies: {fileID: 872837978}
-  button: 0
 --- !u!1 &382904261
 GameObject:
   m_ObjectHideFlags: 0
@@ -1843,8 +1841,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1e7bf2628d32424ab9502eba903d02b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  quiz: {fileID: 1248531497}
   isCorrect: 0
-  quizManager: {fileID: 1248531497}
 --- !u!1 &964103254
 GameObject:
   m_ObjectHideFlags: 0
@@ -2186,6 +2184,8 @@ MonoBehaviour:
   - {fileID: 1613538317}
   currentQuestion: 0
   jennyUpset: {fileID: 1862450945}
+  health: {fileID: 325206539}
+  replies: {fileID: 872837978}
   QuestionTxt: {fileID: 399699475}
 --- !u!1 &1449992334
 GameObject:
@@ -2542,8 +2542,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1e7bf2628d32424ab9502eba903d02b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  quiz: {fileID: 1248531497}
   isCorrect: 0
-  quizManager: {fileID: 1248531497}
 --- !u!1 &1862450945
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,7 +9,6 @@ using TMPro;
 public class Health : MonoBehaviour
 {
     public TextMeshProUGUI healthPoints;
-    public Answers replies;
 
 
 
@@ -18,12 +17,12 @@ public class Health : MonoBehaviour
 
     private void Start()
     {
-        healthPoints.text = "Lives: " + currentlives;
+
     }
 
     private void Update()
     {
-        
+        healthPoints.text = "Lives: " + currentlives;
     }
 
     public void AddingHealth()

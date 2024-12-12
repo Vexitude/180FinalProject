@@ -4,25 +4,27 @@ using UnityEngine;
 
 public class Answers : MonoBehaviour
 {
+    public QuizManager quiz;
     public bool isCorrect = false;
-    public QuizManager quizManager;
-    public Health lives;
 
     public void Answer()
     {
         if(isCorrect)
         {
+            quiz.Correct();
+            quiz.jennyUpset.SetActive(false);
+            //gameObject.GetComponent<QuizManager>().Correct();
+            //gameObject.GetComponent<QuizManager>().jennyUpset.SetActive(false);
             Debug.Log("Good Choice!");
-            quizManager.Correct();
-            //lives.AddingHealth();
-            quizManager.jennyUpset.SetActive(false);
         }
+
         else
         {
+            quiz.Wrong();
+            quiz.jennyUpset.SetActive(true);
+            //gameObject.GetComponent<QuizManager>().Wrong();
+            //gameObject.GetComponent<QuizManager>().jennyUpset.SetActive(true);
             Debug.Log("Maybe Not...");
-            quizManager.Correct();
-            //lives.LosingHealth();
-            quizManager.jennyUpset.SetActive(true);
         }
     }
 }
