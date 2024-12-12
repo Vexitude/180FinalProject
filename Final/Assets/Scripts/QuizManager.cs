@@ -6,6 +6,14 @@ using TMPro;
 using UnityEngine.SceneManagement;
 using Unity.VisualScripting;
 
+
+/*
+ * VEX VASQUEZ
+ * Last Updated:12/5/2024
+ * Quiz UI and Randomizer
+ */
+
+
 public class QuizManager : MonoBehaviour
 {
     public List<QA> QnA;

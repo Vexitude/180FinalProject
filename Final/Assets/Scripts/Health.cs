@@ -6,6 +6,12 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using TMPro;
 
+
+/*
+ * VEX VASQUEZ
+ * Last Updated:12/11/2024
+ * Health system UI for Player
+ */
 public class Health : MonoBehaviour
 {
     public TextMeshProUGUI healthPoints;

@@ -5,6 +5,13 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine.SceneManagement;
 
+
+/*
+ * Name: Alan Buell
+ * Date: 12/11/2024
+ * Des: Allows for Jenny to Speak, UI
+ */
+
 public class Dialogue : MonoBehaviour
 {
     public TextMeshProUGUI title;

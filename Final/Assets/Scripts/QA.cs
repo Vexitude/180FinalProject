@@ -1,4 +1,10 @@
 
+/*
+ * VEX VASQUEZ
+ * Last Updated:12/5/2024
+ * Quiz variables
+ */
+
 
 [System.Serializable]
 public class QA
