@@ -16,9 +16,6 @@ public class QuizManager : MonoBehaviour
 
     public TextMeshProUGUI QuestionTxt;
 
-    private int finalDate = 5;
-    private int secondDate = 4;
-    private int finalHall = 6;
 
     private void Start()
     {
@@ -77,15 +74,15 @@ public class QuizManager : MonoBehaviour
 
         if (sceneName == "Level 2")
         {
-            SceneManager.LoadScene(finalDate);
+            SceneManager.LoadScene(5);
         }
         if (sceneName == "Level 1")
         {
-            SceneManager.LoadScene(secondDate);
+            SceneManager.LoadScene(4);
         }
         if (sceneName == "Level 3")
         {
-            SceneManager.LoadScene(finalHall);
+            SceneManager.LoadScene(6);
         }
 
     }
