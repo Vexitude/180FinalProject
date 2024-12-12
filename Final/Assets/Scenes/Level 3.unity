@@ -2167,10 +2167,10 @@ MonoBehaviour:
   QnA:
   - Question: 1
     Answers:
-    - World
-    - Planet
-    - Creator
-    - Pink
+    - 2
+    - 3
+    - 3
+    - 3
     CorrectAnswer: 1
   - Question: 2
     Answers:
