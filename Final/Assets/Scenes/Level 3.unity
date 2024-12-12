@@ -1969,8 +1969,12 @@ MonoBehaviour:
   title: {fileID: 671222814}
   textComponent: {fileID: 1040211911}
   lines:
-  - Hello
-  - World
+  - Hey!
+  - 'You made it. '
+  - I was worried I scared you off.
+  - How about this date we get deep?
+  - I think you and I are on the same wavelength.
+  - Let's mind meld...
   textSpeed: 0.1
   Buttons: {fileID: 1222845800}
   Quiz: {fileID: 1348928729}
@@ -2169,7 +2173,7 @@ MonoBehaviour:
     Answers:
     - One Clam
     - Fifty Grand Dollars
-    - My Life IS Priceless <3
+    - My Life Is Priceless <3
     - 3 Burgers
     CorrectAnswer: 4
   - Question: What part of me would you cannibalize?
@@ -2207,6 +2211,27 @@ MonoBehaviour:
     - At Least Two
     - What.
     CorrectAnswer: 3
+  - Question: Do you love me?
+    Answers:
+    - Yes
+    - No
+    - Maybe?
+    - Is This A Trick Question?
+    CorrectAnswer: 4
+  - Question: Have you ever heard of Scientology?
+    Answers:
+    - Is That A Science Term?
+    - The Cult?
+    - The Study of Science?
+    - The Religion?
+    CorrectAnswer: 2
+  - Question: What flavor are Swedish Fish?
+    Answers:
+    - Cherry
+    - Lingonberry
+    - Raspberry
+    - They Have A Flavor?
+    CorrectAnswer: 2
   options:
   - {fileID: 581418092}
   - {fileID: 847544842}
