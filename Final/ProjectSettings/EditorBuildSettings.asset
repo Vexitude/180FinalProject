@@ -41,4 +41,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/_NewDate.unity
     guid: baf058c4dcf4ac84a84b5a780f872b08
+  - enabled: 1
+    path: Assets/Scenes/New2Date.unity
+    guid: 43c8980802e9e1646a06a39c569b6756
+  - enabled: 1
+    path: Assets/Scenes/Ghost2.unity
+    guid: 3e5e4df67ee456f469a86e7530d5c0bf
+  - enabled: 1
+    path: Assets/Scenes/FinalGhost.unity
+    guid: 21ee899b4e13ac4419962cab76bedab5
   m_configObjects: {}

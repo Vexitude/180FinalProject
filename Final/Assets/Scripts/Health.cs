@@ -58,15 +58,15 @@ public class Health : MonoBehaviour
 
         if (currentScene == "Level 1")
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(10);
         }
         if (currentScene == "Level 2")
         {
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(13);
         }
         if (currentScene == "Level 3")
         {
-            SceneManager.LoadScene(5);
+            SceneManager.LoadScene(14);
         }
     }
 }

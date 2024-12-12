@@ -1969,8 +1969,12 @@ MonoBehaviour:
   title: {fileID: 671222814}
   textComponent: {fileID: 1040211911}
   lines:
-  - Hello
-  - World
+  - Hey!
+  - 'You made it. '
+  - I was worried I scared you off.
+  - How about this date we get deep?
+  - I think you and I are on the same wavelength.
+  - Let's mind meld...
   textSpeed: 0.1
   Buttons: {fileID: 1222845800}
   Quiz: {fileID: 1348928729}
@@ -2169,7 +2173,7 @@ MonoBehaviour:
     Answers:
     - One Clam
     - Fifty Grand Dollars
-    - My Life IS Priceless <3
+    - My Life Is Priceless <3
     - 3 Burgers
     CorrectAnswer: 4
   - Question: What part of me would you cannibalize?
@@ -2190,23 +2194,44 @@ MonoBehaviour:
     Answers:
     - Get Out
     - Embrace The Warmth
-    - Drink it
+    - Drink It
     - Invite You To Join Me
     CorrectAnswer: 3
-  - Question: 2
+  - Question: What's the best Cars movie?
     Answers:
-    - yes
-    - no
-    - maybe
-    - Pink
-    CorrectAnswer: 1
-  - Question: 6
+    - Cars 1
+    - Cars 2
+    - Cars 3
+    - Planes
+    CorrectAnswer: 2
+  - Question: How many pigeons can you reasonably carry?
     Answers:
-    - yes
-    - no
-    - maybe
-    - Pink
-    CorrectAnswer: 1
+    - Five
+    - Ten
+    - At Least Two
+    - What.
+    CorrectAnswer: 3
+  - Question: Do you love me?
+    Answers:
+    - Yes
+    - No
+    - Maybe?
+    - Is This A Trick Question?
+    CorrectAnswer: 4
+  - Question: Have you ever heard of Scientology?
+    Answers:
+    - Is That A Science Term?
+    - The Cult?
+    - The Study of Science?
+    - The Religion?
+    CorrectAnswer: 2
+  - Question: What flavor are Swedish Fish?
+    Answers:
+    - Cherry
+    - Lingonberry
+    - Raspberry
+    - They Have A Flavor?
+    CorrectAnswer: 2
   options:
   - {fileID: 581418092}
   - {fileID: 847544842}
@@ -2259,7 +2284,7 @@ RectTransform:
   m_GameObject: {fileID: 1601169067}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.29270834, y: 0.29270834, z: 0.29270834}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1921406189}
@@ -2267,7 +2292,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1358, y: 763.573}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1601169070
 MonoBehaviour:

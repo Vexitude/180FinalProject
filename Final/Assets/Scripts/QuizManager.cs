@@ -69,11 +69,11 @@ public class QuizManager : MonoBehaviour
 
         if (sceneName == "Level 2")
         {
-            SceneManager.LoadScene(5);
+            SceneManager.LoadScene(12);
         }
         if (sceneName == "Level 1")
         {
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(11);
         }
         if (sceneName == "Level 3")
         {
