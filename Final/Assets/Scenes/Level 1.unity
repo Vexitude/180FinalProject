@@ -2280,8 +2280,28 @@ MonoBehaviour:
   title: {fileID: 908758692}
   textComponent: {fileID: 1615328564}
   lines:
-  - hey
-  - hdjdkh
+  - 'Oh hello! '
+  - I'm so glad that you could make it.
+  - I hope you like sweet things. I ordered you a Caramel Macchiato, the same as
+    me!
+  - I got here a little early and felt awkward just sitting around hehe.
+  - Oh, don't feel too bad! I'm the one who got here early! It was kind of nice actually.
+  - I read a little bit of this book I've had for a while. But then I got bored of
+    that.
+  - Then I tried playing this cute mobile game on my phone called "ULTRA CUT ADORABLE
+    CAT CAFE"-- but then the ads got annoying...
+  - I ended up listening to my favorite songs until you got here! I had to make sure
+    my headphones weren't too loud though.
+  - ' Sometimes you can hear the Screamo if the volume''s too high! I don''t want
+    to disturb the people around me.'
+  - There was this one time this girl yelled at me in the library! It was so embarrassing..
+  - Anyway, moving on to why we're here...!
+  - I really appreciate that you want me to be your girlfriend! But I can't go start
+    dating just anyone who asks me!
+  - In order for me to be your girlfriend we have to get to know each other!
+  - 'If I feel that we''re compatible then I can consider another date. '
+  - I can even see myself being with you if our hearts line up.
+  - 'So some simple questions to start:'
   textSpeed: 0.1
   Buttons: {fileID: 1854521383}
   Quiz: {fileID: 1801898733}
@@ -2332,8 +2352,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 56.21
+  m_fontSizeBase: 56.21
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2412,47 +2432,68 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Question: color
+  - Question: Do you like sweets?
     Answers:
-    - World
-    - Planet
-    - Creator
-    - Pink
+    - Nope!
+    - I like you ;)
+    - Yes!!
+    - I could..
+    CorrectAnswer: 3
+  - Question: What's you're favorite color?
+    Answers:
+    - Fog grey
+    - Purple
+    - Your eyes ;)
+    - IDK...
+    CorrectAnswer: 2
+  - Question: Do you like to be early or late to things?
+    Answers:
+    - Later is cooler
+    - I skip
+    - On time
+    - Early!!
     CorrectAnswer: 4
-  - Question: 2
+  - Question: What kind of music do you listen to?
     Answers:
-    - yes
-    - no
-    - maybe
-    - Pink
+    - Screamo
+    - Classical
+    - Pop
+    - Musicals
     CorrectAnswer: 1
-  - Question: 3
+  - Question: What's your sign element?
     Answers:
-    - yes
-    - no
-    - maybe
-    - Pink
-    CorrectAnswer: 1
-  - Question: 4
+    - Fire
+    - Earth
+    - Air
+    - Water
+    CorrectAnswer: 4
+  - Question: Are you more of an Introvert or an Extrovert?
     Answers:
-    - yes
-    - no
-    - maybe
-    - Pink
-    CorrectAnswer: 1
-  - Question: 3
+    - Introvert
+    - Ambivert
+    - What?
+    - Extrovert
+    CorrectAnswer: 2
+  - Question: Do you like to read?
     Answers:
-    - yes
-    - no
-    - maybe
-    - Pink
-    CorrectAnswer: 1
-  - Question: 5
+    - A lot
+    - Too boring
+    - All the time!
+    - Nope!
+    CorrectAnswer: 2
+  - Question: Do you like Cats or Dogs?
     Answers:
-    - yes
-    - no
-    - maybe
-    - Pink
+    - Neither
+    - Cats
+    - Dogs
+    - Both
+    CorrectAnswer: 2
+  - Question: Do you like games?
+    Answers:
+    - Yes!
+    - They're okay
+    - Nope..
+    - Too Childish
     CorrectAnswer: 1
   options:
   - {fileID: 420327822}
