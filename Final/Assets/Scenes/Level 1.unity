@@ -2280,8 +2280,8 @@ MonoBehaviour:
   title: {fileID: 908758692}
   textComponent: {fileID: 1615328564}
   lines:
-  - Hello
-  - World
+  - hey
+  - hdjdkh
   textSpeed: 0.1
   Buttons: {fileID: 1854521383}
   Quiz: {fileID: 1801898733}
@@ -2412,13 +2412,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Question: 1
+  - Question: color
     Answers:
     - World
     - Planet
     - Creator
     - Pink
-    CorrectAnswer: 1
+    CorrectAnswer: 4
   - Question: 2
     Answers:
     - yes
