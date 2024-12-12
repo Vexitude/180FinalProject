@@ -433,8 +433,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1181,8 +1181,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 60
+  m_fontSizeBase: 60
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1246,8 +1246,11 @@ MonoBehaviour:
   title: {fileID: 573336326}
   textComponent: {fileID: 399699475}
   lines:
-  - Hello
-  - World
+  - I'm glad we decided on an arcade.
+  - I just love games, especially ones that just break the fourth wall...
+  - Sorry, I'm getting ahead of myself. I just love talking to you. I can really
+    see us having a good time here.
+  - Come and sit! Let's talk before we play for a bit.
   textSpeed: 0.1
   Buttons: {fileID: 843415357}
   Quiz: {fileID: 1248531497}
@@ -1927,8 +1930,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2061,8 +2064,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2156,19 +2159,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Question: 1
+  - Question: What's argubly the most influential game?
     Answers:
-    - World
-    - Planet
-    - Creator
-    - Pink
+    - Pong
+    - Fortnite
+    - Among Us
+    - GTA5
     CorrectAnswer: 1
-  - Question: 2
+  - Question: Do you believe in magic?
     Answers:
-    - yes
-    - no
-    - maybe
-    - Pink
+    - Yes
+    - No
+    - Maybe
+    - Abso
     CorrectAnswer: 1
   - Question: 3
     Answers:
@@ -2292,8 +2295,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
