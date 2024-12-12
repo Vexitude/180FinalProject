@@ -1248,6 +1248,7 @@ MonoBehaviour:
   lines:
   - I'm glad we decided on an arcade.
   - I just love games, especially ones that just break the fourth wall...
+  - Or not even playing the games but just like people watching.
   - Sorry, I'm getting ahead of myself. I just love talking to you. I can really
     see us having a good time here.
   - Come and sit! Let's talk before we play for a bit.
@@ -2173,19 +2174,19 @@ MonoBehaviour:
     - Maybe
     - Abso
     CorrectAnswer: 1
-  - Question: 3
+  - Question: Is it creepy to stare?
     Answers:
-    - yes
-    - no
-    - maybe
-    - Pink
-    CorrectAnswer: 1
-  - Question: 4
+    - Defintely
+    - I Think It's Fine...
+    - No I Do It All The Time
+    - Only When They Catch You!
+    CorrectAnswer: 3
+  - Question: ??
     Answers:
-    - yes
-    - no
-    - maybe
-    - Pink
+    - 1
+    - 1
+    - 1
+    - 1
     CorrectAnswer: 1
   - Question: 5
     Answers:

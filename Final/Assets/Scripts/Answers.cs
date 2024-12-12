@@ -2,6 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * VEX VASQUEZ
+ * Last Updated:12/5/2024
+ * Quiz UI Answers
+ */
+
 public class Answers : MonoBehaviour
 {
     public QuizManager quiz;
