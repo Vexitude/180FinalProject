@@ -43,6 +43,7 @@ public class QuizManager : MonoBehaviour
 
     public void GenerateQuestion()
     {
+        QuestionTxt.gameObject.SetActive(true);
         if (QnA.Count > 0)
         {
             currentQuestion = Random.Range(0, QnA.Count);

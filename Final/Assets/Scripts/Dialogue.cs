@@ -48,7 +48,9 @@ public class Dialogue : MonoBehaviour
             else
             {
                 StopAllCoroutines();
+                //textComponent.setActive(false);
                 textComponent.text = lines[index];
+                
             }
         }
     }
@@ -81,6 +83,7 @@ public class Dialogue : MonoBehaviour
         }
         else
         {
+            textComponent.gameObject.SetActive(false);
             Buttons.SetActive(true);
             Quiz.GenerateQuestion();
         }
