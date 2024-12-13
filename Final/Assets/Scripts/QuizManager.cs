@@ -85,7 +85,7 @@ public class QuizManager : MonoBehaviour
         }
         if (sceneName == "Level 3")
         {
-            SceneManager.LoadScene(6);
+            SceneManager.LoadScene(7);
         }
 
     }

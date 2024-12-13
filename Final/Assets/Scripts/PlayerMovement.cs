@@ -43,16 +43,16 @@ public class PlayerMovement : MonoBehaviour
         {
             if (collision.gameObject.tag == "Door1")
             {
-                SceneManager.LoadScene(1);
+                SceneManager.LoadScene(2);
             }
 
             if (collision.gameObject.tag == "Door2")
             {
-                SceneManager.LoadScene(2);
+                SceneManager.LoadScene(3);
             }
             if (collision.gameObject.tag == "Door3")
             {
-                SceneManager.LoadScene(3);
+                SceneManager.LoadScene(4);
             }
 
         }
